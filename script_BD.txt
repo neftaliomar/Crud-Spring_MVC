@@ -1,0 +1,3 @@
+mysql> create database dbspringdataboot; 
+mysql> create user 'user'@'localhost' identified by 'Password'; 
+mysql> grant all on  dbspringdataboot.* to 'user'@'localhost';
